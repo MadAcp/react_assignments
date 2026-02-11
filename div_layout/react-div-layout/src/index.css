@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #5a1a8f;
+  padding: 20px;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+}

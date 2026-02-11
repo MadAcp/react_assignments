@@ -1,0 +1,26 @@
+.form-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: inherit;
+  background: white;
+  transition: border-color 0.2s;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-group textarea:focus {
+  outline: none;
+  border-color: #5b9dd9;
+}
+
+.helper-text {
+  display: block;
+  font-size: 13px;
+  color: #888;
+  margin-top: 6px;
+  text-align: left;
+}
+
